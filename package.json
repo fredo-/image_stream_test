@@ -1,0 +1,17 @@
+{
+	"name": "image_stream_test",
+	"version": "1.0.0",
+	"description": "test out streaming an image to the front end and displaying on dmd",
+	"main": "app.js",
+	"type": "module",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"start": "node --env-file=.env app"
+	},
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"express": "^4.21.1",
+		"path": "^0.12.7"
+	}
+}
